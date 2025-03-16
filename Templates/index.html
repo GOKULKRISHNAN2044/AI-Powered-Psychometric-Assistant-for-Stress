@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychometric Stress Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Psychometric Stress Test</h1>
+        <div class="question-box" id="question-box">
+            <p class="question" id="question">Loading question...</p>
+            <div class="options" id="options"></div>
+        </div>
+        <button class="next-btn" id="next-btn" onclick="nextQuestion()">Next</button>
+        <div class="gauge-container">
+            <canvas id="stressGauge" width="300" height="300"></canvas>
+        </div>
+        <p class="stress-level" id="stress-level"></p>
+        <div class="report-box">
+            <h2>AI-Generated Stress Report</h2>
+            <p id="report">Your stress report will appear here...</p>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

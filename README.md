@@ -36,7 +36,7 @@ Edit
 
 # Clone the repository:
 
-git clone https://github.com/GOKULKRISHNAN2045/GOKULKRISHNAN2045-AI-Powered-Psychometric-Assistant-for-Stress-Analysis.git
+git clone https://github.com/GOKULKRISHNAN2044/AI-Powered-Psychometric-Assistant-for-Stress.git
 # Install dependencies:
 
 pip install -r requirements.txt  
